@@ -27,3 +27,15 @@
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/obj/Debug/net5.0/ref/Catalog.API.dll
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/obj/Debug/net5.0/Catalog.API.pdb
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/obj/Debug/net5.0/Catalog.API.genruntimeconfig.cache
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/DnsClient.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/MongoDB.Bson.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/MongoDB.Driver.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/SharpCompress.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/win/native/snappy64.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
