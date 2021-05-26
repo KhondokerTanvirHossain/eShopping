@@ -1,6 +1,4 @@
-using System;
-
-namespace Catalog.API.Settings
+namespace Catalog.API.Database.Helpers.Settings
 {
     public interface ICatalogDatabaseSettings
     {

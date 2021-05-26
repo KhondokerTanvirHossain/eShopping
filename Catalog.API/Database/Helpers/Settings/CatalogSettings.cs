@@ -1,4 +1,4 @@
-namespace Catalog.API.Settings
+namespace Catalog.API.Database.Helpers.Settings
 {
     public class CatalogDatabaseSettings : ICatalogDatabaseSettings
     {
