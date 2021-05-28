@@ -1,5 +1,8 @@
 using Catalog.API.Database.Helpers.Collections;
+using Catalog.API.Database.Helpers.Collections.Interfaces;
 using Catalog.API.Database.Helpers.Settings;
+using Catalog.API.Database.Repositories;
+using Catalog.API.Database.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +31,7 @@ namespace Catalog.API
                 sp.GetRequiredService<IOptions<CatalogDatabaseSettings>>().Value);
 
             services.AddTransient<ICatalogContext, CatalogContext>();
+            services.AddTransient<IProductRepository, ProductRepository>();
             
             services.AddControllers();
             

@@ -1,4 +1,5 @@
 using Catalog.API.Database.Entities;
+using Catalog.API.Database.Helpers.Collections.Interfaces;
 using Catalog.API.Database.Helpers.Settings;
 using MongoDB.Driver;
 
