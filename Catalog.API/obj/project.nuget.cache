@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JCiKAC/MOhB6n//GkQFfsj9jWE5zyLigOkHIqTaKjrI1FNc3m4KQukKmMxiqEVZosNys9ZjOnd4kcLqJNr2DtA==",
+  "dgSpecHash": "7rrxVM/XsyBxhLsjQcFDe7jUGBfr67YcO8Ls2SdzBVLS5dI9jINh9LVlSJUBZjbvEY9sgmTB/uopVaaG8wHd8g==",
   "success": true,
   "projectFilePath": "/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/home/jakiraj/.nuget/packages/mongodb.driver/2.13.0-beta1/mongodb.driver.2.13.0-beta1.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/mongodb.driver.core/2.13.0-beta1/mongodb.driver.core.2.13.0-beta1.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/mongodb.libmongocrypt/1.2.1/mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 
 namespace Catalog.API
 {
@@ -36,7 +37,6 @@ namespace Catalog.API
             services.AddSingleton<IProductRepository, ProductRepository>();
             services.AddSingleton<ICatalogService, CatalogService>();
             services.AddControllers();
-            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "Catalog.API", Version = "v1"});

@@ -35,7 +35,7 @@ namespace Catalog.API.Database.Repositories
 
         public async Task<IEnumerable<Product>> GetProductsByName(string name)
         {
-            FilterDefinition<Product> filter = Builders<Product>.Filter.ElemMatch(p => p.Name, name);
+            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq( p => p.Name, name);
             return await _iCatalogContext
                 .Products
                 .Find(filter)
@@ -44,7 +44,7 @@ namespace Catalog.API.Database.Repositories
 
         public async Task<IEnumerable<Product>> GetProductsByCategory(string category)
         {
-            FilterDefinition<Product> filter = Builders<Product>.Filter.ElemMatch(p => p.Category, category);
+            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Category, category);
             return await _iCatalogContext
                 .Products
                 .Find(filter)
@@ -68,7 +68,7 @@ namespace Catalog.API.Database.Repositories
         {
             var result = await _iCatalogContext
                 .Products
-                .DeleteOneAsync(Builders<Product>.Filter.ElemMatch(p => p.Id, id));
+                .DeleteOneAsync(Builders<Product>.Filter.Eq(p => p.Id, id));
             return result.IsAcknowledged && result.DeletedCount > 0;
         }
     }

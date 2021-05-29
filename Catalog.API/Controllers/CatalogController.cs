@@ -26,7 +26,7 @@ namespace Catalog.API.Controllers
             return Ok(await _service.GetProducts());
         }
         
-        [Route("{id}")]
+        [Route("{id}", Name = "GetProduct")]
         [HttpGet]
         [ProducesResponseType(typeof(Product), (int) HttpStatusCode.OK)]
         public  async Task<ActionResult<Product>> GetProduct(string id)
@@ -42,7 +42,8 @@ namespace Catalog.API.Controllers
         [ProducesResponseType(typeof(IEnumerable<Product>), (int) HttpStatusCode.OK)]
         public  async Task<ActionResult<IEnumerable<Product>>> GetProductsByName(string name)
         {
-            return Ok(await _service.GetProductsByName(name));
+            var products = await _service.GetProductsByName(name);
+            return Ok(products);
         }
         
         
@@ -58,8 +59,8 @@ namespace Catalog.API.Controllers
         [ProducesResponseType(typeof(Product), (int) HttpStatusCode.Created)]
         public  async Task<ActionResult<Product>> Create([FromBody] Product product)
         {
-            Product p = await _service.Create(product);
-            return CreatedAtRoute("GetProductById", new {id = p.Id}, p);
+             await _service.Create(product);
+            return CreatedAtRoute("GetProduct", new {id = product.Id}, product);
         }
         
         [HttpPut]
@@ -67,13 +68,14 @@ namespace Catalog.API.Controllers
         public  async Task<ActionResult<Product>> Update([FromBody] Product product)
         {
             if(await _service.Update(product))
-                return CreatedAtRoute("GetProductById", new {id = product.Id}, product);
+                return CreatedAtRoute("GetProduct", new {id = product.Id}, product);
             return NotFound();
         }
         
+        [Route("{id}")]
         [HttpDelete]
-        [ProducesResponseType(typeof(Product), (int) HttpStatusCode.OK)]
-        public  async Task<ActionResult<Product>> Delete(string id)
+        [ProducesResponseType(typeof(bool), (int) HttpStatusCode.OK)]
+        public  async Task<ActionResult<bool>> Delete(string id)
         {
             return Ok(await _service.Delete(id)) ;
         }

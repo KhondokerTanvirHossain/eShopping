@@ -39,3 +39,4 @@
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
 /home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
+/home/jakiraj/Documents/dotnet/eShopping/Catalog.API/bin/Debug/net5.0/Newtonsoft.Json.dll
