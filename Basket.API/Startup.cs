@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Basket.API.Database.Helpers.Collections.Interfaces;
+using Basket.API.Database.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,9 +31,12 @@ namespace Basket.API
         {
             services.AddSingleton<ConnectionMultiplexer>(sp =>
             {
-                var configaration = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"), true);
-                return ConnectionMultiplexer.Connect(configaration);
+                var configuration = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configuration);
             });
+
+            services.AddSingleton<IBasketContext>();
+            services.AddSingleton<IBasketRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
