@@ -25,10 +25,10 @@ namespace Basket.API.Controllers
                 .GetBasket(userName)
             );
         }
-        
+
         [HttpPost]
         [ProducesResponseType(typeof(BasketCart), (int) HttpStatusCode.OK)]
-        public async Task<ActionResult<BasketCart>> UpdateBasket(BasketCart basket)
+        public async Task<ActionResult<BasketCart>> UpdateBasket([FromBody] BasketCart basket)
         {
             return Ok(await _repository
                 .UpdateBasket(basket)

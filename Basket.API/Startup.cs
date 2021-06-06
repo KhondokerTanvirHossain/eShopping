@@ -1,17 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Basket.API.Database.Helpers.Collections;
 using Basket.API.Database.Helpers.Collections.Interfaces;
+using Basket.API.Database.Repositories;
 using Basket.API.Database.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
 
@@ -35,8 +30,8 @@ namespace Basket.API
                 return ConnectionMultiplexer.Connect(configuration);
             });
 
-            services.AddSingleton<IBasketContext>();
-            services.AddSingleton<IBasketRepository>();
+            services.AddSingleton<IBasketContext, BasketContext>();
+            services.AddSingleton<IBasketRepository, BasketRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

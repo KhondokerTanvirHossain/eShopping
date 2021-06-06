@@ -21,11 +21,40 @@ services:
     links:
       - catalogdb
 
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: ..
+      dockerfile: Basket.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:Redis=basketdb:6379"
+    expose:
+      - "80"
+    ports:
+      - "8001:80"
+    depends_on:
+      - basketdb
+    volumes:
+      - ${HOME}/.microsoft/usersecrets/:/root/.microsoft/usersecrets
+      - ${HOME}/.aspnet/https:/root/.aspnet/https/
+    links:
+      - basketdb
+
   catalogdb:
     image: mongo
     container_name: catalogdb
     restart: always
     ports:
       - "27017:27017"
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
+
+  basketdb:
+    image: redis
+    container_name: basketdb
+    restart: always
+    ports:
+      - "6379:6379"
     volumes:
       - ${WEBAPP_STORAGE_HOME}/site:/data/db
