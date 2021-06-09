@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zwZes7EeaxypMWzdVBpl4422wn2RuB+ApwSA97GVvxjivwkKCW5qht5MyhUSyz8GxWT5AbOGfbH65e0G4IoHRQ==",
+  "success": true,
+  "projectFilePath": "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "/home/jakiraj/.nuget/packages/rabbitmq.client/6.2.1/rabbitmq.client.6.2.1.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

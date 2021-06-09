@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/Basket.API.csproj": {}
+    "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {}
   },
   "projects": {
-    "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/Basket.API.csproj": {
+    "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/Basket.API.csproj",
-        "projectName": "Basket.API",
-        "projectPath": "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/Basket.API.csproj",
+        "projectUniqueName": "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
         "packagesPath": "/home/jakiraj/.nuget/packages/",
-        "outputPath": "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/obj/",
+        "outputPath": "/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jakiraj/.nuget/NuGet/NuGet.Config"
@@ -38,13 +38,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "StackExchange.Redis": {
+            "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[2.2.4, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.1, )"
             }
           },
           "imports": [
@@ -58,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
