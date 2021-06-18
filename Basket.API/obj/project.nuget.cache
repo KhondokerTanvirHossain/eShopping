@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nc+GYgoEhtaLWBVnuGJ65EwtvjuJuHTECz3weE6U8bPzoF0RRTrhrYRhIOZuZORtQSp9GAkzrQ1GTwiiRLwiTg==",
+  "dgSpecHash": "UNVCzkAj9qsYZrSxUf9qrzoyEcksXFoZgkuHxkTaW4wHelKKcS+H5A05FJ1oTXwRLvmDVQMRiVoewCXyhFO3UQ==",
   "success": true,
   "projectFilePath": "/home/jakiraj/Documents/dotnet/eShopping/Basket.API/Basket.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/home/jakiraj/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/pipelines.sockets.unofficial/2.2.0/pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/rabbitmq.client/6.2.1/rabbitmq.client.6.2.1.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/stackexchange.redis/2.2.4/stackexchange.redis.2.2.4.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
@@ -19,10 +20,12 @@
     "/home/jakiraj/.nuget/packages/system.diagnostics.performancecounter/5.0.0/system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.drawing.common/5.0.0/system.drawing.common.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.io.pipelines/5.0.0/system.io.pipelines.5.0.0.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.security.cryptography.protecteddata/5.0.0/system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.security.permissions/5.0.0/system.security.permissions.5.0.0.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/home/jakiraj/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512",
     "/home/jakiraj/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
