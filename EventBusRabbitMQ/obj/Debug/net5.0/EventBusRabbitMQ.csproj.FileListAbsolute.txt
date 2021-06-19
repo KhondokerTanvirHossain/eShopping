@@ -1,0 +1,12 @@
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/bin/Debug/net5.0/EventBusRabbitMQ.deps.json
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/bin/Debug/net5.0/EventBusRabbitMQ.dll
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/bin/Debug/net5.0/ref/EventBusRabbitMQ.dll
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/bin/Debug/net5.0/EventBusRabbitMQ.pdb
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.csproj.AssemblyReference.cache
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.AssemblyInfoInputs.cache
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.AssemblyInfo.cs
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.dll
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/ref/EventBusRabbitMQ.dll
+/home/jakiraj/Documents/dotnet/eShopping/EventBusRabbitMQ/obj/Debug/net5.0/EventBusRabbitMQ.pdb
