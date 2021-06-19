@@ -29,12 +29,14 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "ConnectionStrings:Redis=basketdb:6379"
+      - "EventBus:HostName=rabbitmq"
     expose:
       - "80"
     ports:
       - "8001:80"
     depends_on:
       - basketdb
+      - rabbitmq
     volumes:
       - ${HOME}/.microsoft/usersecrets/:/root/.microsoft/usersecrets
       - ${HOME}/.aspnet/https:/root/.aspnet/https/
@@ -58,3 +60,11 @@ services:
       - "6379:6379"
     volumes:
       - ${WEBAPP_STORAGE_HOME}/site:/data/db
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
