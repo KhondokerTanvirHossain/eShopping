@@ -35,6 +35,7 @@ namespace Basket.API
             services.AddSingleton<IBasketContext, BasketContext>();
             services.AddSingleton<IBasketRepository, BasketRepository>();
             services.AddControllers();
+            services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "Basket.API", Version = "v1"});

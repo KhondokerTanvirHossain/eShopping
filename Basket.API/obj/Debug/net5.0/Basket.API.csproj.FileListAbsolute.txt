@@ -37,3 +37,5 @@
 /home/jakiraj/Documents/dotnet/eShopping/Basket.API/bin/Debug/net5.0/RabbitMQ.Client.dll
 /home/jakiraj/Documents/dotnet/eShopping/Basket.API/bin/Debug/net5.0/EventBusRabbitMQ.dll
 /home/jakiraj/Documents/dotnet/eShopping/Basket.API/bin/Debug/net5.0/EventBusRabbitMQ.pdb
+/home/jakiraj/Documents/dotnet/eShopping/Basket.API/bin/Debug/net5.0/AutoMapper.dll
+/home/jakiraj/Documents/dotnet/eShopping/Basket.API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
